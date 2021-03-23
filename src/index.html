@@ -1,31 +1,234 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, user-scalable=no" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
+        <meta name="viewport" content="width=device-width " />
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.scss" />
+
         <!-- do not remove this line! -->
         <title>UOC Boilerplate</title>
     </head>
+
     <body>
-        <img
-            src="./assets/images/logo.png"
-            alt="Universitat Oberta de Catalunya"
-            class="uoc-logo"
-        />
-        <h1 class="uoc-title"><i class="fas fa-university"></i></h1>
-        <p>
-            This is a starter template for the Advanced HTML and CSS Tools
-            courses from the Master's Program in Multimedia Applications and the
-            Master's Program in Web App and Website Development at the
-            Universitat Oberta de Catalunya.
-        </p>
-        <script src="./assets/scripts/main.js"></script>
-        <!-- do not remove this line! -->
+        <!-- Begin Wrapper -->
+        <div class="wrapper">
+            <div class="wrapper__inicio"></div>
+            <div class="wrapper__medio">
+                <!-- Begin Paper -->
+                <div class="paper">
+                    <div class="paper__inicio"></div>
+                    <div class="paper__medio">
+                        <div class="paper__entry">
+                            <!-- Begin Personal Information -->
+                            <img
+                                class="portrait"
+                                src="./assets/images/image.jpg"
+                                alt="Andrea Loayza"
+                            />
+                            <div class="self">
+                                <h1 class="self__titulo">Curriculum Vitae</h1>
+                                <h2 class="self__name">Andrea Loayza V.</h2>
+
+                                <br />
+                                <ul class="self__lista">
+                                    <li class="self__ad">
+                                        Amagasí del Inca y 2nda transversal
+                                        N52-35, Quito Ecuador
+                                    </li>
+                                    <li class="self__mail">
+                                        andre_loa88@hotmail.com
+                                    </li>
+                                    <li class="self__tel">0984893687</li>
+                                </ul>
+                            </div>
+                            <!-- End Personal Information -->
+                        </div>
+                        <div class="entry">
+                            <h2 class="fas fa-atom entry__subtitulo">
+                                Objetivo
+                            </h2>
+                            <p class="entry__objetivo">
+                                Mi objetivo profesional es desarrollarme dentro
+                                de una empresa nacional con perspectivas a largo
+                                plazo, aplicando mis conocimientos y aptitudes,
+                                donde los logros personales y el desempeño sean
+                                reconocidos, además de permitir oportunidades de
+                                desarrollo personal y profesional.
+                            </p>
+                        </div>
+                        <div class="entry">
+                            <h2 class="fas fa-award entry__subtitulo">
+                                Educación
+                            </h2>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Mar 2020- presente
+                                </h3>
+                                <p class="entry__objetivo">
+                                    Universitat Oberta Catalunya <br />
+                                    <em class="entry__enunciado"
+                                        >Máster universitario de Desarrollo de
+                                        Sitios y Aplicaciones Web</em
+                                    >
+                                </p>
+                            </div>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Sept 2008- Sept 2014
+                                </h3>
+                                <p class="entry__objetivo">
+                                    Universidad Tecnológica Equinoccial
+                                    <br />
+                                    <em class="entry__enunciado"
+                                        >Ingeniera en Informática y Ciencias de
+                                        la Computación</em
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <h2 class="fas fa-briefcase entry__subtitulo">
+                                Experiencia
+                            </h2>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Nov 2020 - presente
+                                </h3>
+                                <p class="entry__objetivo">
+                                    TOP Tech Advisors <br />
+                                    <em class="entry__enunciado"
+                                        >Analista IT</em
+                                    >
+                                </p>
+                                <ul class="entry__info">
+                                    <li>
+                                        A cargo de la migracion de los procesos
+                                        creados en SSIS 2008 a la version 2009.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Abr 2018 - Nov 2020
+                                </h3>
+                                <p class="entry__objetivo">
+                                    Netby Consulting S.A<br />
+                                    <em class="entry__enunciado"
+                                        >Analista de Data</em
+                                    >
+                                </p>
+
+                                <ul class="entry__info">
+                                    <li>
+                                        A cargo del proyecto de campañas y de
+                                        asegurar el correcto funcionamiento de
+                                        los procesos del Big data.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Jun 2017 - Dic 2017
+                                </h3>
+                                <p class="entry__objetivo">
+                                    BANCO PROCREDIT<br />
+                                    <em class="entry__enunciado"
+                                        >Especialista de Sistemas</em
+                                    >
+                                </p>
+
+                                <ul class="entry__info">
+                                    <li>
+                                        A cargo del area de reporteria,
+                                        manejando todos los reportes existentes
+                                        en el banco.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="entry__content">
+                                <h3 class="entry__fechas">
+                                    Oct 2013 - May 2017
+                                </h3>
+                                <p class="entry__objetivo">
+                                    TATA CONSULTANCY SERVICES<br />
+                                    <em class="entry__enunciado"
+                                        >Analista IT</em
+                                    >
+                                </p>
+
+                                <ul class="entry__info">
+                                    <li>
+                                        Desarrollando proyectos para el area de
+                                        Data ware house.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <h2 class="fas fa-certificate entry__subtitulo">
+                                SKILLS
+                            </h2>
+                            <div class="entry__content">
+                                <h3 class="entry__lenguajes">Software</h3>
+                                <ul class="entry__skills">
+                                    <li class="entry__lista">Power BI</li>
+                                    <li class="entry__lista">
+                                        SQL Server Integration Services
+                                    </li>
+                                    <li class="entry__lista">Excel</li>
+                                    <li class="entry__lista">
+                                        SQL Server Analysis Services
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="entry__content">
+                                <h3 class="entry__lenguajes">Lenguajes</h3>
+                                <ul class="entry__skills">
+                                    <li class="entry__lista">CSS/XHTML</li>
+                                    <li class="entry__lista">PHP</li>
+                                    <li class="entry__lista">JavaScript</li>
+                                    <li class="entry__lista">SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="fas fa-chalkboard-teacher entry__subtitulo">
+                            Projectos
+                        </h2>
+                        <div class="entry__content">
+                            <h3 class="entry__fechas">Mar 2020- May 2020</h3>
+                            <p class="entry__objetivo">
+                                &#9632;Vagón de campañas <br />
+                            </p>
+                            <ul class="entry__info">
+                                <li>
+                                    Se realiza la carga de las campañas que
+                                    vienen en los distintos canales.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="entry__content">
+                            <h3 class="entry__fechas">Ene 2020- Feb 2020</h3>
+                            <p class="entry__objetivo">
+                                &#9632;Composición Tesorería<br />
+                            </p>
+                            <ul class="entry__info">
+                                <li>
+                                    Validación del cubo tesorería y carga de
+                                    nuevos campos.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#top" class="link">Ir al Inicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper__bottom"></div>
+        </div>
     </body>
 </html>

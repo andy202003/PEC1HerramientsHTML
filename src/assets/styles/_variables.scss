@@ -1,8 +1,23 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$em-label: #7f9ecf;
+$with-list: 500px;
+$body-color: #e1e0db;
+$link-inicio: rgb(233, 159, 21);
+$self-name: #1b4491;
+$self-titulo: #2251ab;
+$entry-subtitulo: #1b4491;
+$entry-languajes: #597097;
+$entry-fechas: #7b90b5;
+$body-size: 13px;
+$query-font: 20px;
+$query2-font: 18px;
+$name-font: 22px;
+$enunciado-font: 12px;
+$enunciado-query-font: 18px;
+$languajes-font: 13px;
