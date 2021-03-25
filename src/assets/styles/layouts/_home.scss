@@ -1,4 +1,5 @@
 /** @define componentName */
+@import "background";
 
 * {
   margin: 0;
@@ -10,94 +11,6 @@
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
-}
-
-/* LAYOUT */
-/* ----------------------------------------- */
-
-body {
-  font-family: $font-family-serif;
-  background-color: $body-color;
-  background-image: url(../images/bg.jpg);
-  background-repeat: repeat;
-  font-size: $body-size;
-  line-height: 17px;
-  color: #000;
-}
-
-/* BACKGROUND */
-/* ----------------------------------------- */
-
-.wrapper {
-  width: 969px;
-  margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-
-.wrapper__inicio {
-  width: 969px;
-  height: 19px;
-  margin: 0 auto;
-  background-image: url(../images/btop.jpg);
-  background-repeat: no-repeat;
-}
-
-.wrapper__medio {
-  width: 969px;
-  margin: 0 auto;
-  background-image: url(../images/bmid.jpg);
-  background-repeat: repeat-y;
-  padding-bottom: 40px;
-}
-
-.wrapper__bottom {
-  width: 969px;
-  height: 22px;
-  padding: 0;
-  margin: 0 auto;
-  background-image: url(../images/bbottom.jpg);
-  background-repeat: no-repeat;
-}
-
-/* PAPER BACKGROUND */
-/* ----------------------------------------- */
-
-.paper {
-  width: 828px;
-  margin: 0 auto;
-}
-
-.paper__inicio {
-  width: 828px;
-  margin: 0 auto;
-  background-image: url(../images/ptop.jpg);
-  background-repeat: no-repeat;
-  height: 126px;
-}
-
-.paper__medio {
-  width: 828px;
-  margin: 0 auto;
-  background-image: url(../images/pmid.jpg);
-  background-repeat: repeat-y;
-  display: block;
-  padding: 0;
-  overflow: hidden;
-  padding-bottom: 75px;
-  padding-top: 7px;
-  @media (max-width: 480px) {
-    font-size: $query-font;
-    line-height: normal;
-  }
-  @media (max-width: 700px) {
-    font-size: $query-font;
-    line-height: normal;
-  }
-  @media (max-width: 800px) {
-    font-size: $query2-font;
-    line-height: normal;
-  }
 }
 
 /* Informacion personal */
@@ -364,21 +277,6 @@ body {
     font-size: 20px;
     width: 252px;
   }
-}
-
-/*For Tablets
-
-@media (max-width: 960px) {
-*/
-
-/*For Laptops/Desktop*/
-
-@media (min-width: 1025px) {
-}
-
-/*For Hi-Res Laptops*/
-
-@media (max-width: 1280px) {
 }
 
 .link {
